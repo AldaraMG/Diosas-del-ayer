@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Duelo de Diosas</title>
+  <link rel="stylesheet" href="css/popup.css">
+  <link rel="stylesheet" href="css/estructura.css">
+  <link rel="stylesheet" href="css/alumnos.css">
+
+</head>
+
+<body class=" grid-container">
+  <header class="header">
+    <div class="name"> DUELO DE DIOSAS</div>
+    <div class="mas" id="mas">
+      <button class="btn-abrir-pop1" id="btn-abrir-pop1"> Nuevo jugador</button>
+      
+    </div>
+   
+    </div>
+    <div class="overlay" id="overlay">
+      <div class="popup" id="popup">
+        <div class="btn-cerrar-popup1" id="btn-cerrar-popup1"><i class="fa fa-times"></i></div>
+        <h3>JUGUEMOS</h3>
+        <h4> y diviertete aprendiendo!</h4>
+        <form action="">
+          <div class="contenedor-input">
+            <label>Nuevo jugador</label>
+            <input type="text" id="Nombre_input">
+          </div>
+          <input type="button" id="btnAgregarElemento" value="Agregar" onclick="agregarElemento();"></input>
+          <input type="button" id="btnMostrarArreglo" value="Mostrar" onclick="mostrarArreglo();"></input>
+          <input type="button" id="btneliminarArreglo" value="Eliminar" onclick="eliminarElemento();"></input>
+          
+        </form>
+      </div>
+      
+
+      
+
+      
+  </header>
+
+  <article class="cont1">DIOSAS</article>
+ 
+  <article class="cont2" >
+    <div id="listaItemsVisual"></div>
+    <br>
+    <div id="resultado"></div>
+    <br>
+    <div id="Azar"></div>
+    <br>
+    <div class ="Select"><input type="button" id="btnjugarArreglo" value="jugar" onclick="jugarElemento();"></input></div>
+    
+    
+      
+    
+
+    
+    
+  </article>
+  
+     
+
+
+
+
+  <script src="js/abrir-cerrar-popup1.js" type="text/javascript"></script>
+  <script src="js/fotos.arrays.js" type="text/javascript"></script>
+  <script src="js/alumnos-list.js" type="text/javascript"></script>
+  <script src="js/jugador azar.js" type="text/javascript"></script>
+  <script src="js/ruleta.js" type="text/javascript"></script>
+  <script src="https://kit.fontawesome.com/e31a446f5b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

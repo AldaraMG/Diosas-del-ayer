@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;  
+    margin: 0; 
+    padding: 0;
+   }
+   
+   
+   html {
+       height: 100%;
+   }
+   
+   body {
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 3.125rem;
+   min-height: 100%;
+   
+   }
+   
+   .grid-container > * {
+       box-shadow: -1px 1px 7px 0px;
+       border-radius: 2px;
+       padding: 10px;
+       font-size: small;
+       
+   }
+   
+   .header {
+       display:flex;
+       justify-content: space-around;
+       grid-area: header;
+       background-color: rgb(158, 238, 238);
+        
+   }
+
+   .name {
+    font-size: large;
+
+   }
+
+  
+   
+   .cont1 {
+       display:flex;
+       grid-area: cont1;
+       background-color: rgb(131, 131, 151);
+   }
+   
+   
+   
+   .cont2 {
+       display:flex;
+       justify-content:space-between;
+
+       
+       align-items: center;
+      
+       grid-area: cont2;
+       background-color: rgb(229, 186, 137);
+       
+   
+   }
+   
+   
+   
+   
+   .grid-container {
+       display: grid;
+       gap: .625rem;
+       text-align: center;
+       grid-template-areas:
+       "header"
+       "cont1"
+       "cont2"
+       
+   }
+   
+   @media (max-width :700px) {
+       .grid-container {
+       grid-template-columns: 50px auto;
+       grid-template-rows: 100px 200px auto 100px;
+       grid-template-areas:
+        "header header"
+        "cont1 cont1"
+        "cont2 cont2"
+        
+       }
+   }
