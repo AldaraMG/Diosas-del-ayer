@@ -1,9 +1,4 @@
-#azar-nombres{
-	background-color: #dca2e5;
-	padding: 40px;
-	height: 230px;
-	margin: 60px;
-}
+
 
 
 
@@ -13,12 +8,8 @@
 	position: relative;
 	padding: 10px 20px;
 	font-size: 15px;
-	
 	color: #fff;
 	border-style:inset;
-	
-	cursor: pointer;
-	margin-top: 10px;
 	margin-left: 190px;
 	font-family:'Archeologicaps';
 	background-image:url(/fotos/background-pattern-texture-gold-wallpaper-preview.png);

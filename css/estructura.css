@@ -35,7 +35,7 @@ body {
 .cont1 {
     display: flex;
     justify-content: center;
-    flex-direction:column;
+    flex-direction:row;
     justify-content: space-around;
     grid-area: cont1;
     background-color: rgb(131, 131, 151);
