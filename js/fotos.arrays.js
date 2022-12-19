@@ -1,172 +1,78 @@
-let fotosarrays = [
-    {
-        img: "fotos/diosas/AFRODITA.png",
-        id: 0,
-    },
+let cambia_imagen = new Array();
 
-    {
-        img: "fotos/diosas/ANFITRITE.png",
-        id: 1,
-    },
+cambia_imagen[0] = "fotos/diosas/AFRODITA.png";
 
-    {
-        img: "fotos/diosas/ANPUT.png",
-        id: 2,
-    },
+cambia_imagen[1] = "fotos/diosas/ANFITRITE.png";
 
-    {
-        img: "fotos/diosas/ARTEMISA.png",
-        id: 3,
-    },
+cambia_imagen[2] = "fotos/diosas/ANPUT.png";
 
-    {
-        img: "fotos/diosas/ATENA.png",
-        id: 4,
-    },
+cambia_imagen[3] = "fotos/diosas/ARTEMISA.png";
 
-    {
-        img: "fotos/diosas/BASTET.png",
-        id: 5,
-    },
+cambia_imagen[4] = "fotos/diosas/ATENA.png";
 
-    {
-        img: "fotos/diosas/DEMÉTER.png",
-        id: 6,
-    },
+cambia_imagen[5] = "fotos/diosas/BASTET.png";
 
-    {
-        img: "fotos/diosas/ERIS.png",
-        id: 7,
-    },
+cambia_imagen[6] = "fotos/diosas/DEMÉTER.png";
 
-    {
-        img: "fotos/diosas/ESFINGE.png",
-        id: 8,
-    },
+cambia_imagen[7] = "fotos/diosas/ERIS.png";
 
-    {
-        img: "fotos/diosas/GAIA.png",
-        id: 9,
-    },
+cambia_imagen[8] = "fotos/diosas/ESFINGE.png";
 
-    {
-        img: "fotos/diosas/HATHOR.png",
-        id: 10,
-    },
+cambia_imagen[9] = "fotos/diosas/GAIA.png";
 
-    {
-        img: "fotos/diosas/HÉCATE.png",
-        id: 11,
-    },
+cambia_imagen[10] = "fotos/diosas/HATHOR.png";
 
-    {
-        img: "fotos/diosas/HEL.png",
-        id: 12,
-    },
+cambia_imagen[11] = "fotos/diosas/HÉCATE.png";
 
-    {
-        img: "fotos/diosas/HERA.png",
-        id: 13,
-    },
+cambia_imagen[12] = "fotos/diosas/HEL.png";
 
-    {
-        img: "fotos/diosas/HESTIA.png",
-        id: 14,
-    },
+cambia_imagen[13] = "fotos/diosas/HERA.png";
 
-    {
-        img: "fotos/diosas/IRIS.png",
-        id: 15,
-    },
+cambia_imagen[14] = "fotos/diosas/HESTIA.png";
 
-    {
-        img: "fotos/diosas/ISIS.png",
-        id: 16,
-    },
+cambia_imagen[15] = "fotos/diosas/IRIS.png";
 
-    {
-        img: "fotos/diosas/KHIONE.png",
-        id: 17,
-    },
+cambia_imagen[16] = "fotos/diosas/ISIS.png";
 
-    {
-        img: "fotos/diosas/MELINOE.png",
-        id: 18,
-    },
+cambia_imagen[17] = "fotos/diosas/KHIONE.png";
 
-    {
-        img: "fotos/diosas/MERET.png",
-        id: 19,
-    },
+cambia_imagen[18] = "fotos/diosas/MELINOE.png";
 
-    {
-        img: "fotos/diosas/NAUNET.png",
-        id: 20,
-    },
+cambia_imagen[19] = "fotos/diosas/MERET.png";
 
-    {
-        img: "fotos/diosas/NEFTIS.png",
-        id: 21,
-    },
+cambia_imagen[20] = "fotos/diosas/NAUNET.png";
 
-    {
-        img: "fotos/diosas/NEITH.png",
-        id: 22,
-    },
+cambia_imagen[21] = "fotos/diosas/NEFTIS.png";
 
-    {
-        img: "fotos/diosas/NÉMESIS.png",
-        id: 23,
-    },
+cambia_imagen[22] = "fotos/diosas/NEITH.png";
 
-    {
-        img: "fotos/diosas/NIKE.png",
-        id: 24,
-    },
+cambia_imagen[23] = "fotos/diosas/NÉMESIS.png";
 
-    {
-        img: "fotos/diosas/NUT.png",
-        id: 25,
-    },
+cambia_imagen[24] = "fotos/diosas/NIKE.png";
 
-    {
-        img: "fotos/diosas/NYX.png",
-        id: 26,
-    },
+cambia_imagen[25] = "fotos/diosas/NUT.png";
 
-    {
-        img: "fotos/diosas/PERSÉFONE.png",
-        id: 27,
-    },
+cambia_imagen[26] = "fotos/diosas/NYX.png";
 
-    {
-        img: "fotos/diosas/RENENUTET.png",
-        id: 28,
-    },
+cambia_imagen[27] = "fotos/diosas/PERSÉFONE.png";
 
-    {
-        img: "fotos/diosas/RHEA.png",
-        id: 29,
-    },
+cambia_imagen[28] = "fotos/diosas/RENENUTET.png";
 
-    {
-        img: "fotos/diosas/SEKHMET.png",
-        id: 30,
-    },
+cambia_imagen[29] = "fotos/diosas/RHEA.png";
 
-    {
-        img: "fotos/diosas/SELENE.png",
-        id: 31,
-    },
+cambia_imagen[30] = "fotos/diosas/SEKHMET.png";
 
-    {
-        img: "fotos/diosas/SOL.png",
-        id: 32,
-    },
+cambia_imagen[31] = "fotos/diosas/SELENE.png";
 
-    {
-        img: "fotos/diosas/SOPDET.png",
-        id: 33,
-    },
+cambia_imagen[32] = "fotos/diosas/SOL.png";
 
-];
+cambia_imagen[33] = "fotos/diosas/SOPDET.png";
+
+function rand(n) {
+
+  return (Math.floor(Math.random() * n));
+}
+
+function cambiar() {
+  document.getElementById("ia").src = cambia_imagen[rand(33)];
+}

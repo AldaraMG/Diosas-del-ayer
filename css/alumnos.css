@@ -1,27 +1,34 @@
-#listaItemsVisual{
-    background-color: rgb(180, 232, 232);
-    text-size-adjust:inherit;
-        
+#azar-nombres{
+	background-color: #dca2e5;
+	padding: 40px;
+	height: 230px;
+	margin: 60px;
 }
 
 
 
 #btnjugarArreglo{
+    border-radius: 10%;
+	
 	position: relative;
 	padding: 10px 20px;
 	font-size: 15px;
-	background: #efb258;
+	
 	color: #fff;
 	border-style:inset;
-	z-index: 10;
+	
 	cursor: pointer;
 	margin-top: 10px;
+	margin-left: 190px;
+	font-family:'Archeologicaps';
+	background-image:url(/fotos/background-pattern-texture-gold-wallpaper-preview.png);
 }
 
 p{
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family:'Archeologicaps';
 	font-size: 20px;
 	color:rgb(77, 77, 161);
+	
 }
 
 

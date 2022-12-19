@@ -1,10 +1,3 @@
-//let listaItems = ["María", "Pablo", "Samara","Lidia","Leo","Marta","Ainhoa","Francisco","Martina","Salvador","Amalia","Bárbara","Andrea", "Jaime","Jose","Selena","Cristina","Davinia","Paola","Roberto","Sara","Aldara","Rosemary","Esperanza","Israel","Irene","Gabriel","Noelia"];
-//let listadoVisual = document.getElementById("listaItemsVisual");
-//for(i = 0; i < listaItems.length; i++){
-    //listadoVisual.innerHTML += "<p>" + listaItems[i] + "</p>";
-//}
-
-
 window.onload = function() {
     window.datos = [];
 }
@@ -35,8 +28,10 @@ function eliminarElemento () {
 }
 
 function jugarElemento (){
+    cambiar();
     let listaItems = document.getElementById('Nombre_input').value;
-    let Azar = document.getElementById('Azar');Azar.innerHTML = datos[Math.floor(Math.random() * datos.length  )];
+
+    let Azar = document.getElementById('azar-nombres');Azar.innerHTML = datos[Math.floor(Math.random() * datos.length  )];
     
    
 
@@ -54,4 +49,4 @@ function jugarElemento (){
      
 
 
-   
+
