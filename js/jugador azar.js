@@ -6,6 +6,8 @@ function agregarElemento() {
     let listaItems = document.getElementById('Nombre_input').value;
 
     datos.push(listaItems);
+    
+    
 }
 
 function mostrarArreglo() {

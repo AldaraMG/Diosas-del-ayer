@@ -1,18 +1,21 @@
 #btn-abrir-pop1 {
 	font-family:'Archeologicaps';
-	color: rgb(135, 7, 147);
+	
 	position: relative;
 	padding: 10px 20px;
-	font-size: 15px;
-	background: #efb258;
+	font-size: 20px;
+	
 	color: #fff;
 	border-style: inset;
 	z-index: 10;
 	cursor: pointer;
-	margin-top: 10px;
+	
 	background-image:url(/fotos/background-pattern-texture-gold-wallpaper-preview.png);
 	border-radius: 10%;
+	margin-left: 550px;
+	margin-right: 550px;
 }
+
 
 .overlay {
 	background: rgba(0, 0, 0, .3);
@@ -33,12 +36,14 @@
 }
 
 .popup {
-	background-color: rgb(211, 170, 238);
-	padding: 50px;
+	
+	padding: 70px;
 	text-align: center;
 	width: 400px;
+	margin-top: 220px;
 	font-family:'Archeologicaps';
-	background-image:url(/fotos/background-pattern-texture-gold-wallpaper-preview.jpg);
+	background-image: url(/fotos/imagenresult.png);
+	
 	border-radius: 10%;
 
 }
@@ -47,7 +52,7 @@
 	font-size: 30px;
 	
 	text-align:center;
-	color: blueviolet;
+	color: rgb(224, 70, 14);
     
 }
 
@@ -57,7 +62,7 @@
 }
 
 .popup h3 {
-	color: rgb(7, 107, 147);
+	color: rgb(0, 5, 7);
 	font-size: 20px;
 	margin-bottom: 15px;
 	padding-top: 10px;
