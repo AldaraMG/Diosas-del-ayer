@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'archeologicapsregular';
     src: url('archeologicaps-webfont.woff2') format('woff2'),
-         url('archeologicaps-webfont.woff') format('woff');
-         font-weight: normal;
-         font-style: normal;
-     }
+        url('archeologicaps-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .name {
     padding-top: 1em;
@@ -18,10 +18,11 @@
     color: rgb(216, 178, 169);  
 
 }
-.texto{
+
+.texto {
     text-transform: capitalize;
     font-size: medium;
-    color:rgb(4, 4, 46);
+    color: rgb(4, 4, 46);
     padding: 1em 5em;
     flex-direction: row;
     text-align: center;

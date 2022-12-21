@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'archeologicapsregular';
     src: url('archeologicaps-webfont.woff2') format('woff2'),
-         url('archeologicaps-webfont.woff') format('woff');
-         font-weight: normal;
-         font-style: normal;
-     }
+        url('archeologicaps-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     box-sizing: border-box;
@@ -17,11 +17,11 @@ html {
 }
 
 body {
-    font-family:'Archeologicaps';
+    font-family: 'Archeologicaps';
     background-image: url(/fotos/fondo.jpg);
     min-height: 100%;
-    position:relative;
-    z-index:99;
+    position: relative;
+    z-index: 99;
     display: grid;
     grid-template-areas:
     "header header"
@@ -35,29 +35,25 @@ body {
     flex-direction: column;
     grid-area: header;
     justify-content: space-between;
-    
-
 }
 
-.name{
+.name {
     padding: 10px 20px;
 }
 
 .cont1 {
     display: flex;
     justify-content: center;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-around;
     grid-area: cont1;
     padding: 10px 20px;
-    
 }
 
 .cont2 {
     display: flex;
     flex-direction: column;
     grid-area: cont2;
-    
 }
 
 @media (max-width:1024px) {

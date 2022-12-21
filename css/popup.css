@@ -13,7 +13,6 @@
 	margin-right: 550px;
 }
 
-
 .overlay {
 	background: rgba(0, 0, 0, .3);
 	position: fixed;
@@ -29,7 +28,6 @@
 
 .overlay.activo {
 	visibility: visible;
-
 }
 
 .popup {
@@ -39,22 +37,19 @@
 	width: 350px;
 	height: 400px;
 	margin-top: 220px;
-	font-family:'Archeologicaps';
+	font-family: 'Archeologicaps';
 	background-image: url(/fotos/imagenresult.png);
 	border-radius: 10%;
-
 }
 
 .btn-cerrar-popup1 {
 	font-size: 30px;
-	text-align:center;
+	text-align: center;
 	color: rgb(224, 70, 14);
-    
 }
 
 .btn-cerrar-popup1:hover {
 	color: black;
-	
 }
 
 .popup h3 {
@@ -62,7 +57,6 @@
 	font-size: 20px;
 	margin-bottom: 15px;
 	padding-top: 10px;
-
 }
 
 .popup form .contenedor-input input {
@@ -72,33 +66,31 @@
 	height: 32px;
 	font-size: 20px;
 	text-align: center;
-
 }
 
-#btnAgregarElemento{
+#btnAgregarElemento {
 	text-align: center;
 	width: 100px;
 	margin-top: 20px;
-	font-family:'Archeologicaps';
+	font-family: 'Archeologicaps';
 	border-radius: 10%;
 	background-color: rgb(230, 219, 185);
 }
 
-#btnMostrarArreglo{
+#btnMostrarArreglo {
 	text-align: center;
 	width: 100px;
 	margin-top: 20px;
-	font-family:'Archeologicaps';
+	font-family: 'Archeologicaps';
 	border-radius: 10%;
 	background-color: rgb(230, 219, 185);
-
 }
 
-#btneliminarArreglo{
+#btneliminarArreglo {
 	text-align: center;
 	width: 100px;
 	margin-top: 20px;
-	font-family:'Archeologicaps';
+	font-family: 'Archeologicaps';
 	border-radius: 10%;
 	background-color: rgb(230, 219, 185);
 
