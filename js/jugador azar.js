@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function () {
     window.datos = [];
 }
 
@@ -6,8 +6,8 @@ function agregarElemento() {
     let listaItems = document.getElementById('Nombre_input').value;
 
     datos.push(listaItems);
-    
-    
+
+
 }
 
 function mostrarArreglo() {
@@ -22,20 +22,20 @@ function mostrarArreglo() {
     }
 }
 
-function eliminarElemento () {
+function eliminarElemento() {
     let listaItems = document.getElementById('Nombre_input').value;
 
     datos.pop(listaItems);
 
 }
 
-function jugarElemento (){
+function jugarElemento() {
     cambiar();
     let listaItems = document.getElementById('Nombre_input').value;
 
-    let Azar = document.getElementById('azar-nombres');Azar.innerHTML = datos[Math.floor(Math.random() * datos.length  )];
-    
-   
+    let Azar = document.getElementById('azar-nombres'); Azar.innerHTML = datos[Math.floor(Math.random() * datos.length)];
+
+
 
     for (const listaItems of datos) {
         let datoParrafo = document.createElement('p');
@@ -43,12 +43,12 @@ function jugarElemento (){
 
         listaItems.innerText(datoParrafo);
     }
-    
 
-   
+
+
 }
 
-     
+
 
 
 
