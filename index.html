@@ -19,20 +19,21 @@
 </head>
 
 <body class=" grid-container">
-  <div id="particles-js"></div>
+  <audio src="Musica/musfondo.mp3" autoplay="autoplay" loop="loop"></audio>
+   <div id="particles-js"></div>
     <header class="header">
         <div class="name"> DUELO DE DIOSAS</div>
-        <div class="texto">Las deidades solo desaparecen cuando son condenadas por el olvido de los seres humanos.
-            Pierden su poder cuando sus historias se desvanecen entre la gloria de las nuevas religiones. Solo nosotros somos
-            capaces de salvarlas de la nada con la ayuda de la memoria. Tenemos sus nombres, tenemos sus apariencias, pero...
-            Pocos saben de sus poderes. El conocimiento, la belleza, la naturaleza, etc... Es nuestro objetivo recordarlas. Es
-            nuestro deber salvarlas.</div>
+        <div class="texto">Las deidades solo desaparecen cuando son condenadas por el olvido de los seres humanos.-
+            Pierden su poder cuando sus historias se desvanecen entre la gloria de las nuevas religiones.- Solo nosotros somos capaces de salvarlas de la nada con la ayuda de la memoria.- Tenemos sus nombres, tenemos sus apariencias, pero...
+            Pocos saben de sus poderes.- El conocimiento, la belleza, la naturaleza, etc... Es nuestro objetivo recordarlas.-    Es nuestro deber salvarlas.-</div>
         <button class="btn-abrir-pop1" id="btn-abrir-pop1"> Nuevo jugador</button>
         </div>
 
         </div>
         <div class="overlay" id="overlay">
             <div class="popup" id="popup">
+                <img id="gift2" src="https://www.gifsanimados.org/data/media/41/rayo-y-relampago-imagen-animada-0013.gif" alt="Imagen">
+              
                 <div class="btn-cerrar-popup1" id="btn-cerrar-popup1"><i class="fa fa-times"></i></div>
                 <h3>JUGUEMOS</h3>
                 <h4> y diviertete aprendiendo.</h4>
@@ -43,30 +44,26 @@
                         <input type="text" id="Nombre_input">
                     </div>
                     <input type="button" id="btnAgregarElemento" value="Agregar" onclick="agregarElemento();"></input>
-                    <input type="button" id="btnMostrarArreglo" value="Mostrar" onclick="mostrarArreglo();"></input>
                     <input type="button" id="btneliminarArreglo" value="Eliminar" onclick="eliminarElemento();"></input>
 
                 </form>
             </div>
-
-
-
-
 
     </header>
 
     <main class="cont1">
         <p><img id="ia" alt="Imagen" src="fotos/diosas/NYX.png" /></p>
         <div id="azar-nombres"></div>
+        <img id="gift" src="https://www.ahiva.info/Gifs-Animados/Mitologia/Hadas/Mitologia-155.gif" alt="Imagen">
 
 
-        <!--<body onload = " cambiar ()">-->
+       
     </main>
 
 
 
     <main class="cont2">
-        <div id="listaItemsVisual"></div>
+        
         <br>
         <div id="resultado"></div>
         <br>

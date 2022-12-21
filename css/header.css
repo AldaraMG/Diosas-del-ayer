@@ -11,8 +11,12 @@
     font-size: xx-large;
     font-weight: 700;
     text-align: center;
-    color: rgb(96, 35, 21);
-    
+    color: rgb(96, 35, 21);    
+}
+
+.name:hover{
+    color: rgb(216, 178, 169);  
+
 }
 .texto{
     text-transform: capitalize;
@@ -21,6 +25,11 @@
     padding: 1em 5em;
     flex-direction: row;
     text-align: center;
-    padding-left: 0em;
-    background-color: rgba(211, 211, 231, 0.337);
+    padding-left:50px;
+    background-color: rgba(151, 151, 222, 0.337);
+}
+
+.texto:hover{
+    color:rgb(230, 230, 240);
+
 }

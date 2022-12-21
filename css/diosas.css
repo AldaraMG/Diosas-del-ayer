@@ -1,29 +1,24 @@
 #ia {
 	width: 300px;
-	height:420px;
+	height:410px;
 	margin-bottom: 20px;
 	border-radius: 10%;
 
 }
 
 #azar-nombres {
-
 	display: flex;
-	align-items: center;
-	
-	padding: 80px;
-	height: min-content;
-	font-size: 15px;
-	margin-right: 80px;
+	padding-bottom: 100px;
+    font-size: 40px;
 	font-family:'Archeologicaps';
 	margin: 80px;
-	margin-right:120px;
-	border-radius: 20%;
-	
-	font-size: 40px;
-	
+	margin-left:150px;			
 }
 
-#azar-nombre:hover {
-	color: rgb(0, 0, 0);
+#gift{
+	width: 200px;
+	height: 400px;
+	padding-top: 150px;
 }
+
+

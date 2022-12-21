@@ -1,15 +1,12 @@
 #btn-abrir-pop1 {
 	font-family:'Archeologicaps';
-	
 	position: relative;
 	padding: 10px 20px;
 	font-size: 20px;
-	
 	color: #fff;
 	border-style: inset;
 	z-index: 10;
 	cursor: pointer;
-	
 	background-image:url(/fotos/background-pattern-texture-gold-wallpaper-preview.png);
 	border-radius: 10%;
 	margin-left: 550px;
@@ -37,13 +34,13 @@
 
 .popup {
 	
-	padding: 70px;
+	padding: 30px;
 	text-align: center;
-	width: 400px;
+	width: 350px;
+	height: 400px;
 	margin-top: 220px;
 	font-family:'Archeologicaps';
 	background-image: url(/fotos/imagenresult.png);
-	
 	border-radius: 10%;
 
 }
@@ -76,7 +73,6 @@
 	font-size: 20px;
 	text-align: center;
 
-
 }
 
 #btnAgregarElemento{
@@ -106,4 +102,9 @@
 	border-radius: 10%;
 	background-color: rgb(230, 219, 185);
 
+}
+
+#gift2{
+	width: 30px;
+	height: 50px;
 }

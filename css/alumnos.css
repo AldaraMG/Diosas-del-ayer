@@ -9,7 +9,7 @@
 	color: #fff;
 	border-style:inset;
 	cursor: pointer;
-	margin-left: 90px;
+	margin-left: 200px;
 	font-family:'Archeologicaps';
 	
 }
@@ -27,16 +27,10 @@ p:hover {
 }
 #resultado {
 	font-family:'Archeologicaps';
-    column-width: 50;
-    border: 5px solid transparent;
-	background-image: url(/fotos/imagenresult.png);
-	
-    background-repeat: no-repeat;
-    border-image: linear-gradient(to bottom, #e89c2ba1, #e76b1f96);
-    border-image-slice: 5;
-	
-	margin-right: 60px;
+	margin-left: 80px;
 }
+
+
 
 
 
