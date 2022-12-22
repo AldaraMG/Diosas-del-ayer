@@ -1,4 +1,4 @@
-let cambia_imagen = new Array();
+let cambia_imagen = new Array();//guarda imagenes en el array
 
 cambia_imagen[0] = "fotos/diosas/AFRODITA.png";
 
@@ -72,7 +72,10 @@ function rand(n) {
 
   return (Math.floor(Math.random() * n));
 }
+//floor() (redondea hacia abajo al entero más cercano) y random crea un numero al azar entre 1 y 33 (o cual sea la cantidad de imágenes)
 
 function cambiar() {
   document.getElementById("ia").src = cambia_imagen[rand(33)];
 }
+// getElementById(): nos permite acceder a elementos HTML a los que hemos asignado un identificador con el atributo HTML id.
+// esta función está vinculada con el onclick="jugarElemento();

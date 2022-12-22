@@ -3,6 +3,8 @@ let btnAbrirPopup = document.getElementById('btn-abrir-pop1'),//variable del bot
     popup = document.getElementById('popup'), //  variable de la propia ventana
     btnCerrarPopup = document.getElementById('btn-cerrar-popup1');// variable del botón para cerrar la ventana
 
+    //getElementById(): nos permite acceder a elementos HTML a los que hemos asignado un identificador con el atributo HTML id
+
 btnAbrirPopup.addEventListener('click', function () {
     overlay.classList.add('activo');
     popup.classList.add('activo');
