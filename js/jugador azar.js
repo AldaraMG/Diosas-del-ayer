@@ -1,13 +1,12 @@
 window.onload = function () {
-    window.datos = [];//El evento onload se usa para ejecutar una función de JavaScript tan pronto como una página haya cargado.
+    window.datos = [];
 }
 
 function agregarElemento() {
-    let nuevoJugador = document.getElementById('Nombre_input').value;//1º-getElementById(): nos permite acceder a elementos HTML a los que hemos asignado un identificador con el atributo HTML id
+    let nuevoJugador = document.getElementById('Nombre_input').value;
 
-    datos.push(nuevoJugador);//2ºEl método push() añade uno o más elementos al final de un array
+    datos.push(nuevoJugador);
     mostrarArreglo();
-
 
 }
 
@@ -16,16 +15,16 @@ function mostrarArreglo() {
     resultado.innerHTML = '';
 
     for (const nuevoJugador of datos) {
-        let datoParrafo = document.createElement('p');// crea un elemento en forma de "p"
-        datoParrafo.innerText = nuevoJugador;//luego no se generan nodos en el DOM sino se muestran dichos caracteres en la página.
+        let datoParrafo = document.createElement('p');
+        datoParrafo.innerText = nuevoJugador;
 
-        resultado.appendChild(datoParrafo);//  Como su propio nombre indica, este método realiza un «append», es decir, inserta o elimina el elemento.
+        resultado.appendChild(datoParrafo);
     }
 }
 
 function eliminarElemento() {
     let nuevoJugador = document.getElementById('Nombre_input').value;
-    datos.pop();//El método pop() elimina el último elemento de un array
+    datos.pop();
     mostrarArreglo();
 
 }
@@ -36,10 +35,8 @@ function jugarElemento() {
     let Azar = document.getElementById('azar-nombres');
      Azar.innerHTML = datos[Math.floor(Math.random() * datos.length)];
 
-
-
     for (const nuevoJugador of datos) {
-        let datoParrafo = document.createElement('p');//crea un elemento en forma de "p" vínvulada al evento JugarElemento
+        let datoParrafo = document.createElement('p');
         datoParrafo.innerText;
 
         Azar.innerText(datoParrafo);
