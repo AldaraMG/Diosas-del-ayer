@@ -2,8 +2,8 @@
 	border-radius: 10%;
 	background-image: url(/fotos/background-pattern-texture-gold-wallpaper-preview.png);
 	position: relative;
-	padding: 15px 40px;
-	font-size: 20px;
+	padding: .9375rem 2.5rem;
+	font-size: 1.25rem;
 	background-repeat: no-repeat;
 	color: #fff;
 	border-style: inset;
@@ -16,7 +16,7 @@
 
 p {
 	font-family: 'Archeologicaps';
-	font-size: 20px;
+	font-size: 1.25rem;
 	color: rgb(0, 0, 7);
 	text-align: center;
 }
@@ -27,7 +27,7 @@ p:hover {
 
 #resultado {
 	font-family:'Archeologicaps';
-	margin-left: 80px;
+	margin-left: 5rem;
 }
 
 

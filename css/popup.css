@@ -1,16 +1,16 @@
 #btn-abrir-pop1 {
 	font-family:'Archeologicaps';
 	position: relative;
-	padding: 10px 20px;
-	font-size: 20px;
+	padding: .625rem 1.25rem;
+	font-size: 1.25rem;
 	color: #fff;
 	border-style: inset;
 	z-index: 10;
 	cursor: pointer;
 	background-image:url(/fotos/background-pattern-texture-gold-wallpaper-preview.png);
 	border-radius: 10%;
-	margin-left: 550px;
-	margin-right: 550px;
+	margin-left: 34.375rem;
+	margin-right: 34.375rem;
 }
 
 .overlay {
@@ -32,18 +32,18 @@
 
 .popup {
 	
-	padding: 30px;
+	padding: 1.875rem;
 	text-align: center;
-	width: 350px;
-	height: 400px;
-	margin-top: 220px;
+	width: 21.875rem;
+	height: 25rem;
+	margin-top: 13.75rem;
 	font-family: 'Archeologicaps';
 	background-image: url(/fotos/imagenresult.png);
 	border-radius: 10%;
 }
 
 .btn-cerrar-popup1 {
-	font-size: 30px;
+	font-size: 1.875rem;
 	text-align: center;
 	color: rgb(224, 70, 14);
 }
@@ -54,24 +54,24 @@
 
 .popup h3 {
 	color: rgb(0, 5, 7);
-	font-size: 20px;
-	margin-bottom: 15px;
-	padding-top: 10px;
+	font-size: 1.25rem;
+	margin-bottom: .9375rem;
+	padding-top: .625rem;
 }
 
 .popup form .contenedor-input input {
 	font-family: 'Archeologicaps';
 	width: 100%;
-	margin-bottom: 10px;
-	height: 32px;
-	font-size: 20px;
+	margin-bottom: .625rem;
+	height: 2rem;
+	font-size: 1.25rem;
 	text-align: center;
 }
 
 #btnAgregarElemento {
 	text-align: center;
-	width: 100px;
-	margin-top: 20px;
+	width: 6.25rem;
+	margin-top: 1.25rem;
 	font-family: 'Archeologicaps';
 	border-radius: 10%;
 	background-color: rgb(230, 219, 185);
@@ -79,8 +79,8 @@
 
 #btnMostrarArreglo {
 	text-align: center;
-	width: 100px;
-	margin-top: 20px;
+	width: 6.25rem;
+	margin-top: 1.25rem;
 	font-family: 'Archeologicaps';
 	border-radius: 10%;
 	background-color: rgb(230, 219, 185);
@@ -88,14 +88,14 @@
 
 #btneliminarArreglo {
 	text-align: center;
-	width: 100px;
-	margin-top: 20px;
+	width: 6.25rem;
+	margin-top: 1.25rem;
 	font-family: 'Archeologicaps';
 	border-radius: 10%;
 	background-color: rgb(230, 219, 185);
 }
 
 #gift2{
-	width: 30px;
-	height: 50px;
+	width: 1.875rem;
+	height: 3.125rem;
 }
